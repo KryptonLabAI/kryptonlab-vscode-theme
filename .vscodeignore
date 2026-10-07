@@ -1,0 +1,14 @@
+.vscode/**
+.vscodeignore
+.gitignore
+.git/**
+node_modules/**
+package-lock.json
+*.vsix
+*.bak*
+preview/**
+gen-*.js
+color-test.ts
+color-test.tsx
+_backups/**
+**/*.bak*

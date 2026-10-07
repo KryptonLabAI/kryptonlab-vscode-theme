@@ -1,0 +1,49 @@
+{
+  "name": "kryptonlab-dark",
+  "displayName": "KryptonLab Dark",
+  "description": "The official KryptonLab dark theme — a dense, disciplined, transparent indigo/violet workbench for Visual Studio Code.",
+  "version": "1.0.4",
+  "publisher": "kryptonlab",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "kryptonlab",
+    "dark",
+    "indigo",
+    "violet",
+    "purple",
+    "theme",
+    "color-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kryptonlab/kryptonlab-vscode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kryptonlab/kryptonlab-vscode-theme/issues"
+  },
+  "homepage": "https://kryptonlab.id",
+  "galleryBanner": {
+    "color": "#412DC0",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "KryptonLab Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kryptonlab-dark-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}

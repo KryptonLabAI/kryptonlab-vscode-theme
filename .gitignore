@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+package-lock.json
+
+# build output
+*.vsix
+
+# working files (not part of the extension)
+_backups/
+.vscode/
+gen-options.js
+gen-shiki.js
+color-test.ts
+color-test.tsx
+
+# preview working files — keep only the final screenshot
+preview/*
+!preview/preview-final.png
